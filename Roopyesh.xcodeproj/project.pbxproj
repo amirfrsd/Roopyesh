@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19863AA0B697AF4D0DDAA4CE /* libPods-Roopyesh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71039A2596657683D49D3091 /* libPods-Roopyesh.a */; };
 		299C87931F4C2E9400AFFD6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 299C87921F4C2E9400AFFD6D /* main.m */; };
 		299C87961F4C2E9400AFFD6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 299C87951F4C2E9400AFFD6D /* AppDelegate.m */; };
 		299C87991F4C2E9400AFFD6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299C87981F4C2E9400AFFD6D /* ViewController.m */; };
@@ -15,6 +16,12 @@
 		299C87A11F4C2E9400AFFD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299C879F1F4C2E9400AFFD6D /* LaunchScreen.storyboard */; };
 		299C87AC1F4C2E9400AFFD6D /* RoopyeshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 299C87AB1F4C2E9400AFFD6D /* RoopyeshTests.m */; };
 		299C87B71F4C2E9400AFFD6D /* RoopyeshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 299C87B61F4C2E9400AFFD6D /* RoopyeshUITests.m */; };
+		299C87C61F4C2EA700AFFD6D /* CoreNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 299C87C51F4C2EA700AFFD6D /* CoreNetworking.m */; };
+		299C87C91F4C2EB400AFFD6D /* CoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 299C87C81F4C2EB400AFFD6D /* CoreUtils.m */; };
+		299C87CD1F4C2ECD00AFFD6D /* MoviesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 299C87CC1F4C2ECD00AFFD6D /* MoviesTableViewCell.m */; };
+		299C87D01F4C395B00AFFD6D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299C87CF1F4C395B00AFFD6D /* MasterViewController.m */; };
+		7E7995E8B89C4328E9F7F8BF /* libPods-RoopyeshTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1698D20258E02C3DD56C8D /* libPods-RoopyeshTests.a */; };
+		AC35529569241E3A3FBF905D /* libPods-RoopyeshUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC38C20D58A7226A8035CF93 /* libPods-RoopyeshUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20D687DB955D9F94A8A0B8C3 /* Pods-RoopyeshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoopyeshUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoopyeshUITests/Pods-RoopyeshUITests.release.xcconfig"; sourceTree = "<group>"; };
 		299C878E1F4C2E9400AFFD6D /* Roopyesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roopyesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		299C87921F4C2E9400AFFD6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		299C87941F4C2E9400AFFD6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,22 @@
 		299C87B21F4C2E9400AFFD6D /* RoopyeshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoopyeshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		299C87B61F4C2E9400AFFD6D /* RoopyeshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoopyeshUITests.m; sourceTree = "<group>"; };
 		299C87B81F4C2E9400AFFD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299C87C41F4C2EA700AFFD6D /* CoreNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreNetworking.h; sourceTree = "<group>"; };
+		299C87C51F4C2EA700AFFD6D /* CoreNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreNetworking.m; sourceTree = "<group>"; };
+		299C87C71F4C2EB400AFFD6D /* CoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreUtils.h; sourceTree = "<group>"; };
+		299C87C81F4C2EB400AFFD6D /* CoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreUtils.m; sourceTree = "<group>"; };
+		299C87CB1F4C2ECD00AFFD6D /* MoviesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesTableViewCell.h; sourceTree = "<group>"; };
+		299C87CC1F4C2ECD00AFFD6D /* MoviesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesTableViewCell.m; sourceTree = "<group>"; };
+		299C87CE1F4C395B00AFFD6D /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		299C87CF1F4C395B00AFFD6D /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2E5B0AB177CB8612A9AFA3A2 /* Pods-RoopyeshTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoopyeshTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoopyeshTests/Pods-RoopyeshTests.release.xcconfig"; sourceTree = "<group>"; };
+		71039A2596657683D49D3091 /* libPods-Roopyesh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Roopyesh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B493F67B5E34D217CCE13A53 /* Pods-Roopyesh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roopyesh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roopyesh/Pods-Roopyesh.debug.xcconfig"; sourceTree = "<group>"; };
+		DB0F605F9F4588629EA0DA31 /* Pods-Roopyesh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roopyesh.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roopyesh/Pods-Roopyesh.release.xcconfig"; sourceTree = "<group>"; };
+		E2B9DCD5D756B843B586A5D1 /* Pods-RoopyeshUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoopyeshUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoopyeshUITests/Pods-RoopyeshUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E59F9244EB4C24D1AA6C0FD4 /* Pods-RoopyeshTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoopyeshTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoopyeshTests/Pods-RoopyeshTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA1698D20258E02C3DD56C8D /* libPods-RoopyeshTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoopyeshTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC38C20D58A7226A8035CF93 /* libPods-RoopyeshUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoopyeshUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19863AA0B697AF4D0DDAA4CE /* libPods-Roopyesh.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7995E8B89C4328E9F7F8BF /* libPods-RoopyeshTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC35529569241E3A3FBF905D /* libPods-RoopyeshUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17DA27D352380F8372862A56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71039A2596657683D49D3091 /* libPods-Roopyesh.a */,
+				FA1698D20258E02C3DD56C8D /* libPods-RoopyeshTests.a */,
+				FC38C20D58A7226A8035CF93 /* libPods-RoopyeshUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		299C87851F4C2E9400AFFD6D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				299C87AA1F4C2E9400AFFD6D /* RoopyeshTests */,
 				299C87B51F4C2E9400AFFD6D /* RoopyeshUITests */,
 				299C878F1F4C2E9400AFFD6D /* Products */,
+				B0533D48DB5E16379D825A74 /* Pods */,
+				17DA27D352380F8372862A56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +144,14 @@
 				299C87951F4C2E9400AFFD6D /* AppDelegate.m */,
 				299C87971F4C2E9400AFFD6D /* ViewController.h */,
 				299C87981F4C2E9400AFFD6D /* ViewController.m */,
+				299C87CE1F4C395B00AFFD6D /* MasterViewController.h */,
+				299C87CF1F4C395B00AFFD6D /* MasterViewController.m */,
+				299C87C41F4C2EA700AFFD6D /* CoreNetworking.h */,
+				299C87C51F4C2EA700AFFD6D /* CoreNetworking.m */,
+				299C87C71F4C2EB400AFFD6D /* CoreUtils.h */,
+				299C87C81F4C2EB400AFFD6D /* CoreUtils.m */,
+				299C87CB1F4C2ECD00AFFD6D /* MoviesTableViewCell.h */,
+				299C87CC1F4C2ECD00AFFD6D /* MoviesTableViewCell.m */,
 				299C879A1F4C2E9400AFFD6D /* Main.storyboard */,
 				299C879D1F4C2E9400AFFD6D /* Assets.xcassets */,
 				299C879F1F4C2E9400AFFD6D /* LaunchScreen.storyboard */,
@@ -140,6 +187,19 @@
 			path = RoopyeshUITests;
 			sourceTree = "<group>";
 		};
+		B0533D48DB5E16379D825A74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B493F67B5E34D217CCE13A53 /* Pods-Roopyesh.debug.xcconfig */,
+				DB0F605F9F4588629EA0DA31 /* Pods-Roopyesh.release.xcconfig */,
+				E59F9244EB4C24D1AA6C0FD4 /* Pods-RoopyeshTests.debug.xcconfig */,
+				2E5B0AB177CB8612A9AFA3A2 /* Pods-RoopyeshTests.release.xcconfig */,
+				E2B9DCD5D756B843B586A5D1 /* Pods-RoopyeshUITests.debug.xcconfig */,
+				20D687DB955D9F94A8A0B8C3 /* Pods-RoopyeshUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 299C87BB1F4C2E9400AFFD6D /* Build configuration list for PBXNativeTarget "Roopyesh" */;
 			buildPhases = (
+				0A475E3919FFC06995792236 /* [CP] Check Pods Manifest.lock */,
 				299C878A1F4C2E9400AFFD6D /* Sources */,
 				299C878B1F4C2E9400AFFD6D /* Frameworks */,
 				299C878C1F4C2E9400AFFD6D /* Resources */,
+				D736A785AEE00E9CD5F94E00 /* [CP] Embed Pods Frameworks */,
+				C344F082C6A7B54D3915996E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 299C87BE1F4C2E9400AFFD6D /* Build configuration list for PBXNativeTarget "RoopyeshTests" */;
 			buildPhases = (
+				D375A5528871D620878923F8 /* [CP] Check Pods Manifest.lock */,
 				299C87A31F4C2E9400AFFD6D /* Sources */,
 				299C87A41F4C2E9400AFFD6D /* Frameworks */,
 				299C87A51F4C2E9400AFFD6D /* Resources */,
+				E6C0B86993A6972D55AAD480 /* [CP] Embed Pods Frameworks */,
+				38344300494940ABEB4527EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 299C87C11F4C2E9400AFFD6D /* Build configuration list for PBXNativeTarget "RoopyeshUITests" */;
 			buildPhases = (
+				D1BD980DBB2218BA23F995E4 /* [CP] Check Pods Manifest.lock */,
 				299C87AE1F4C2E9400AFFD6D /* Sources */,
 				299C87AF1F4C2E9400AFFD6D /* Frameworks */,
 				299C87B01F4C2E9400AFFD6D /* Resources */,
+				CEFC6D47BB223278E36A8CA9 /* [CP] Embed Pods Frameworks */,
+				2706E1CF9CD66EDE1380FB1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +276,7 @@
 				TargetAttributes = {
 					299C878D1F4C2E9400AFFD6D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VFQ8Q5YZ89;
 						ProvisioningStyle = Automatic;
 					};
 					299C87A61F4C2E9400AFFD6D = {
@@ -268,14 +338,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A475E3919FFC06995792236 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2706E1CF9CD66EDE1380FB1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoopyeshUITests/Pods-RoopyeshUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38344300494940ABEB4527EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoopyeshTests/Pods-RoopyeshTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C344F082C6A7B54D3915996E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roopyesh/Pods-Roopyesh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFC6D47BB223278E36A8CA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoopyeshUITests/Pods-RoopyeshUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BD980DBB2218BA23F995E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D375A5528871D620878923F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D736A785AEE00E9CD5F94E00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roopyesh/Pods-Roopyesh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C0B86993A6972D55AAD480 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoopyeshTests/Pods-RoopyeshTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		299C878A1F4C2E9400AFFD6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				299C87CD1F4C2ECD00AFFD6D /* MoviesTableViewCell.m in Sources */,
+				299C87C61F4C2EA700AFFD6D /* CoreNetworking.m in Sources */,
 				299C87991F4C2E9400AFFD6D /* ViewController.m in Sources */,
+				299C87C91F4C2EB400AFFD6D /* CoreUtils.m in Sources */,
 				299C87961F4C2E9400AFFD6D /* AppDelegate.m in Sources */,
 				299C87931F4C2E9400AFFD6D /* main.m in Sources */,
+				299C87D01F4C395B00AFFD6D /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,8 +632,10 @@
 		};
 		299C87BC1F4C2E9400AFFD6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B493F67B5E34D217CCE13A53 /* Pods-Roopyesh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VFQ8Q5YZ89;
 				INFOPLIST_FILE = Roopyesh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.emersad.Roopyesh;
@@ -431,8 +645,10 @@
 		};
 		299C87BD1F4C2E9400AFFD6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0F605F9F4588629EA0DA31 /* Pods-Roopyesh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VFQ8Q5YZ89;
 				INFOPLIST_FILE = Roopyesh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.emersad.Roopyesh;
@@ -442,6 +658,7 @@
 		};
 		299C87BF1F4C2E9400AFFD6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59F9244EB4C24D1AA6C0FD4 /* Pods-RoopyeshTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RoopyeshTests/Info.plist;
@@ -454,6 +671,7 @@
 		};
 		299C87C01F4C2E9400AFFD6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5B0AB177CB8612A9AFA3A2 /* Pods-RoopyeshTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RoopyeshTests/Info.plist;
@@ -466,6 +684,7 @@
 		};
 		299C87C21F4C2E9400AFFD6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B9DCD5D756B843B586A5D1 /* Pods-RoopyeshUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RoopyeshUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +696,7 @@
 		};
 		299C87C31F4C2E9400AFFD6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D687DB955D9F94A8A0B8C3 /* Pods-RoopyeshUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RoopyeshUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,6 +725,7 @@
 				299C87BD1F4C2E9400AFFD6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		299C87BE1F4C2E9400AFFD6D /* Build configuration list for PBXNativeTarget "RoopyeshTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +734,7 @@
 				299C87C01F4C2E9400AFFD6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		299C87C11F4C2E9400AFFD6D /* Build configuration list for PBXNativeTarget "RoopyeshUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +743,7 @@
 				299C87C31F4C2E9400AFFD6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
